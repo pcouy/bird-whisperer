@@ -143,7 +143,7 @@ if __name__ == '__main__':
     parser.add_argument('-r', '--radius', type=float, default=0, help="Radius around given position in which to ring birds")
     args = parser.parse_args()
 
-    print(args.coords)
+#    print(args.coords)
     if args.address != "":
         lat, lon = addressToGPS(args.address, args.autopick_address)
 
