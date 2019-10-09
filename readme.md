@@ -4,6 +4,10 @@ This is a simple script that repeatedly rings the alarm of up to the 250 bird sc
 
 It uses [Mailnesia](http://mailnesia.com) to generate accounts with random email on the fly everytime you start the script.
 
+### Update Oct 10, 2019
+
+Bird seems to have taken actions to prevent this from working. I now get a `412 Precontition failed` whenever I try to make a bird chirp, from two different IP addresses. Please try and tell me if it still works for you. 
+
 ## Disclaimer
 
 To the best of my knowledge, there is no rate limiting whatsoever on the Bird API. However, [Bird's terms of service](https://www.bird.co/terms/) state the following :
