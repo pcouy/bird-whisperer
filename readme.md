@@ -8,6 +8,10 @@ It uses [Mailnesia](http://mailnesia.com) to generate accounts with random email
 
 Bird seems to have taken actions to prevent this from working. I now get a `412 Precontition failed` whenever I try to make a bird chirp, from two different IP addresses. Please try and tell me if it still works for you. 
 
+### Update Nov 5, 2019
+
+The birds seem to be chirping again
+
 ## Disclaimer
 
 To the best of my knowledge, there is no rate limiting whatsoever on the Bird API. However, [Bird's terms of service](https://www.bird.co/terms/) state the following :
